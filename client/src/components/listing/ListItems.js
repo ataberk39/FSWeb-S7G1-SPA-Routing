@@ -47,6 +47,8 @@ const ListItems = (props) => {
                   key={index}
                   original_title={item.title}
                   image={item.backdrop_path}
+                  overview={item.overview}
+                  popularity={item.popularity}
                 />
               );
             })

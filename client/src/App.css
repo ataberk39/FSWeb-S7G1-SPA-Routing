@@ -1,11 +1,12 @@
 .trend-list{
     display: flex;
-    flex-direction: column; 
+    flex-wrap: wrap;
     text-align: center;
-    width: 500px;
+    justify-content: center;
 }
 .trend{
     border: 2px solid black;
+    width: 504px;
 }
 .container-trend-list{
     display: flex;
@@ -23,4 +24,7 @@
     font-size: 30px;
     cursor: pointer;
     margin-bottom: 20px;
+}
+.tv-overwiew{
+    width: 500px;
 }
